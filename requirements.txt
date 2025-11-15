@@ -1,0 +1,39 @@
+# Core data & DB
+numpy>=1.24
+pandas>=2.0
+sqlalchemy>=1.4
+psycopg2-binary>=2.9
+python-dotenv>=1.0
+
+# ETL & orchestration
+prefect>=2.0
+apache-airflow>=2.5
+
+# Modeling & ML
+scikit-learn>=1.2
+lightgbm>=3.3
+xgboost>=1.7
+joblib>=1.2
+statsmodels>=0.14
+prophet>=1.1
+implicit>=0.6
+
+# Visualization & dashboards
+matplotlib>=3.7
+plotly>=5.15
+streamlit>=1.20
+
+# API & deployment
+fastapi>=0.95
+uvicorn>=0.22
+gunicorn>=20.1
+
+# Utilities & testing
+jupyterlab>=4.0
+pytest>=7.0
+great_expectations>=0.16
+
+# Optional (useful tools)
+boto3>=1.26
+s3fs>=2023.11
+sentry-sdk>=1.11
